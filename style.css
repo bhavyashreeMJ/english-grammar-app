@@ -1,18 +1,30 @@
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
 }
-.choices button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 18px;
-    cursor: pointer;
+header {
+  background-color: #0044cc;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-#result {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: bold;
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+footer {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
