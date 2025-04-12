@@ -1,30 +1,39 @@
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
 header {
-  background-color: #0044cc;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background-color: #2a2a72;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
 }
 nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
 }
 main {
-  padding: 20px;
+    padding: 20px;
 }
 footer {
-  background-color: #0044cc;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    background-color: #2a2a72;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul {
+    line-height: 2;
 }
